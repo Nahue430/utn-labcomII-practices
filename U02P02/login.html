@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesion</title>
+</head>
+<body>
+    <h1><ins>Formulario de inicio de sesión</ins></h1>
+<ol>
+    <li>Debe introducir su nombre de usuario en el primer recuadro</li>
+    <li>Luego debe introducir su contraseña en el segundo recuadro</li>
+    <li>Por ultimo debe presionar el boton de "SUBMIT"</li>
+</ol>
+    <hr>
+
+    <form action="/action.php" method="PUSH" target="_blank">
+        <label for="nombreDeUsuario">Nombre de Usuario</label>
+        <input type="text"
+        name="nombreDeUsuario"
+        id="nombreDeUsuario"
+        placeholder="Nombre de usuario"
+        required
+        maxlength="10"
+        >
+        <label for="passUsuario">Password</label>
+        <input type="password"
+        name="password"
+        id="password"
+        placeholder="password"
+        required
+        maxlength="10"
+        >
+   <button>
+
+    <label for="SUBMIT"> SUBMIT </label>
+    
+   </button>
+   <br><label for="checkbox">Olvide mi contraseña</label>
+   <input type="checkbox" name="checkbox" id="checkbox">
+
+
+    </form>
+   
+</body>
+</html>
