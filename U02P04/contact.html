@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Turismo Total</h1>
+    </header>
+    <div class="container"> <!-- Navegación / cotenedor izquierdo -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav> <!-- Contenedor principal -->
+        <main>
+            <h1><ins>Contáctenos</ins></h1>
+            <fieldset>
+                <form>
+                    <table>
+
+                        <tr>
+                            <td><label for="Nombre">Nombre<label></td>
+                            <td>
+                                <input type="text" name="Nombre" id="Nombre" placeholder="Ingrese Nombre y Apellido"
+                                    required maxlength="30">
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td><label for="E-mail">E-mail</label></td>
+                            <td>
+                                <input type="email" name="E-Mail" id="email" placeholder="Ingrese su correo" required
+                                    maxlength="30">
+                            </td>
+
+                        <tr>
+                        <tr>
+                            <td><label for="Edad">Edad</label></td>
+                            <td>
+                                <input type="number" name="Edad" id="Edad" placeholder="Ingrese su edad" required
+                                    maxlength="30">
+                            </td>
+                        </tr>
+                        <tr>
+                            
+                            <td>
+                                <label for="Destino preferido">Destino preferido</label>
+                                <select name="Destino preferido" id="Destino preferido">
+                                    <option value="Francia">Francia</option>
+                                    <option value="España">España</option>
+                                    <option value="Argentina">Argentina</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button>
+                                    <label for="Recibir notificaciones">¿Desea recibir notificaciones?</label>
+                                    <input type="checkbox" name="checkbox" id="checkbox">
+                                </button>
+                            </td>
+                        </tr>
+
+
+
+
+                    </table>
+                </form>
+                <br>
+                <h2>Deje sus cometarios</h2>
+                <br>
+                <textarea name="Comentarios" id="Comentarios" cols="30" rows="5"></textarea>
+                <br>
+                <button>SUBMIT</button>
+            </fieldset>
+        </main> <!-- Contenedor secundario / derecho -->
+        <div class="right">
+            <h2>Info</h2>
+            <p>Pagina web dedicada al turismo nacional e internacional</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.86783352519!2d-60.646393924975506!3d-32.95449867228405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab11d992c721%3A0x1c3843ef4cbfce38!2sZeballos%201341%2C%20S2000%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1712355286522!5m2!1ses!2sar" width="150" height="267" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>     
+        </div>
+    </div> <!-- Pie de Página-->
+    <footer>
+        <p>© copyright Turismo Total <br> Zeballos 1341, Rosario, Argentina.</p>
+    </footer>
+</body>
+
+</html>
